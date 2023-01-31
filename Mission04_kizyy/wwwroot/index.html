@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Mission 4 - Assignment</title>
+    <meta name="author" content="Kizy Matzenbacher">
+    <link rel="icon" type="images/x-icon" href="img/icon.png" />
+
+
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/default.css" rel="stylesheet" />
+
+</head>
+<body class="custom-background">
+    <h1 class="pinkfont">Mission 4 - Assignment</h1>
+    <div class="background-image">
+        <div class="transparent-background">
+            <img src="img/kizy.jpeg" width="350" height="450" />
+            <br />
+        </div>
+    </div>
+
+    <h3 class="pinkfont">What I Hope to Get out of IS 413 Class</h3>
+    <p>
+        In a C# class, I hope to gain a solid understanding of the fundamentals of the language, including syntax, data types, variables, control structures, and object-oriented programming concepts.<br />
+        I also want to learn how to write efficient and readable code, as well as how to debug and troubleshoot issues.<br />
+        Additionally, I am interested in learning how to use C# to build applications, and I hope to get hands-on experience with real-world projects.
+    </p>
+
+
+    <h3 class="pinkfont">Top #3 Jobs I'm Interested</h3>
+    <ul>
+        <li>Data Science</li>
+        <li>Software Engineer</li>
+        <li>Data Analytics</li>
+    </ul>
+
+    <form>
+        <h3 class="pinkfont">Grade Calculator</h3>
+        <div style="display: flex;">
+            <div style="width: 50%;">
+                <label for="" style="margin-bottom:8px;"></label><br />
+                <label for="assignments" style="margin-bottom:8px;">Assignments:</label><br />
+                <label for="groupProject" style="margin-bottom:8px;">Group Project:</label><br />
+                <label for="quizzes" style="margin-bottom:8px;">Quizzes:</label><br />
+                <label for="midtermExam" style="margin-bottom:8px;">Midterm Exam:</label><br />
+                <label for="finalExam" style="margin-bottom:8px;">Final Exams:</label><br />
+                <label for="intex" style="margin-bottom:8px;">Intex:</label><br />
+            </div>
+            <div style="width: 25%;">
+                <label style="font-size: smaller;">Score:</label><br />
+                <input type="text" id="assignments" name="assignments" style="width: 90%;" /><br />
+                <input type="text" id="groupProject" name="groupProject" style="width: 90%;" /><br />
+                <input type="text" id="quizzes" name="quizzes" style="width: 90%;" /><br />
+                <input type="text" id="midtermExam" name="midtermExam" style="width: 90%;" /><br />
+                <input type="text" id="finalExam" name="finalExam" style="width: 90%;" /><br />
+                <input type="text" id="intex" name="intex" style="width: 90%;" /><br />
+
+            </div>
+        </div>
+        <br />
+        <input type="button" id="btnsubm" value="Calculate Grade" />
+        <br /><br />
+        <span id="result"></span>
+    </form>
+
+
+
+    <script src="lib/bootstrap/js/bootstrap.js"></script>
+    <script src="lib/jquery/jquery-3.6.3.min.js"></script>
+    <script src="js/gradeCalculator.js"></script>
+
+</body>
+</html>
