@@ -1,5 +1,6 @@
 ﻿$(document).ready(function () {
     $("#btnsubm").click(function () {
+
         //Get values from html form & assign to variables
         var assignments = parseFloat($("#assignments").val()) || 0;
         var groupProject = parseFloat($("#groupProject").val()) || 0;
